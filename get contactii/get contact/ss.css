@@ -1,0 +1,96 @@
+ body {
+      background: linear-gradient(120deg, #f6f8ff, #f9fbff);
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    .navbar-brand span {
+      font-weight: 700;
+      color: #6f42c1;
+    }
+    .pic img {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+    }
+
+    .stat-card {
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,.05);
+    }
+
+    .icon-box {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 22px;
+    }
+
+    .bg-blue { background:#377dff;
+    
+    
+    
+    
+    }
+    .bg-orange { background:#ff9f0a;
+    
+    
+    }
+    .bg-red { background:#ff375f;
+    
+    
+    
+    }
+
+    .search-box {
+      border-radius: 14px;
+      padding: 14px 18px;
+    }
+
+    .empty-box {
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #9aa0a6;
+    }
+
+    .side-card {
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,.05);
+    }
+/*****************************formm*******/
+.custom-input {
+  border-radius: 14px;
+  padding: 14px 18px;
+  border: 1px solid #e5e7eb;
+}
+
+.custom-input:focus {
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 0.15rem rgba(124, 58, 237, 0.25);
+}
+
+.modal-content {
+  border: none;
+}
+#addContactModal {
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5); 
+  justify-content: center; 
+  align-items: center;     
+  z-index: 1000;           
+}
+
+#addContactModal.show {
+  display: flex; 
+}
